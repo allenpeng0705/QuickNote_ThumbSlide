@@ -1,0 +1,1221 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		291600741945719200DBEF1F /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 291600731945719200DBEF1F /* KeyboardViewController.m */; };
+		291600771945719200DBEF1F /* com.ezinput.thumbslide.SlideKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2916006E1945719200DBEF1F /* com.ezinput.thumbslide.SlideKeyboard.appex */; };
+		291600C31945721500DBEF1F /* english.ldb in Resources */ = {isa = PBXBuildFile; fileRef = 2916007E1945721500DBEF1F /* english.ldb */; };
+		291600C41945721500DBEF1F /* DBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 291600821945721500DBEF1F /* DBUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		291600C51945721500DBEF1F /* IMESingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 291600851945721500DBEF1F /* IMESingleton.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		291600C61945721500DBEF1F /* CandidatesListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 291600881945721500DBEF1F /* CandidatesListView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		291600C71945721500DBEF1F /* TraceKeyboardHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2916008B1945721500DBEF1F /* TraceKeyboardHandler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		291600C81945721500DBEF1F /* KeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2916008F1945721500DBEF1F /* KeyboardView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		291600C91945721500DBEF1F /* PopupKeyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 291600911945721500DBEF1F /* PopupKeyView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		291600CA1945721500DBEF1F /* QIInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 291600931945721500DBEF1F /* QIInputView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		291600CB1945721500DBEF1F /* q_english.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600961945721500DBEF1F /* q_english.c */; };
+		291600CC1945721500DBEF1F /* q_lexicon.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600981945721500DBEF1F /* q_lexicon.c */; };
+		291600CD1945721500DBEF1F /* q_main_number.c in Sources */ = {isa = PBXBuildFile; fileRef = 2916009A1945721500DBEF1F /* q_main_number.c */; };
+		291600CE1945721500DBEF1F /* q_main_punc.c in Sources */ = {isa = PBXBuildFile; fileRef = 2916009C1945721500DBEF1F /* q_main_punc.c */; };
+		291600CF1945721500DBEF1F /* q_main_qwerty.c in Sources */ = {isa = PBXBuildFile; fileRef = 2916009E1945721500DBEF1F /* q_main_qwerty.c */; };
+		291600D01945721500DBEF1F /* q_filter.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600A21945721500DBEF1F /* q_filter.c */; };
+		291600D11945721500DBEF1F /* q_hashtable.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600A51945721500DBEF1F /* q_hashtable.c */; };
+		291600D21945721500DBEF1F /* q_ime.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600A71945721500DBEF1F /* q_ime.c */; };
+		291600D31945721500DBEF1F /* q_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600A91945721500DBEF1F /* q_io.c */; };
+		291600D41945721500DBEF1F /* q_keyboard.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600AB1945721500DBEF1F /* q_keyboard.c */; };
+		291600D51945721500DBEF1F /* q_keyboard_factory.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600AD1945721500DBEF1F /* q_keyboard_factory.c */; };
+		291600D61945721500DBEF1F /* q_logger.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600B01945721500DBEF1F /* q_logger.c */; };
+		291600D71945721500DBEF1F /* q_malloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600B21945721500DBEF1F /* q_malloc.c */; };
+		291600D81945721500DBEF1F /* q_recognizerinfo_factory.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600B41945721500DBEF1F /* q_recognizerinfo_factory.c */; };
+		291600D91945721500DBEF1F /* q_util.m in Sources */ = {isa = PBXBuildFile; fileRef = 291600B71945721500DBEF1F /* q_util.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		291600DA1945721500DBEF1F /* utf8_string.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600B81945721500DBEF1F /* utf8_string.c */; };
+		291600DB1945721500DBEF1F /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 291600BB1945721500DBEF1F /* Util.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		291600DC1945721500DBEF1F /* qwerty_320_X_240_loose_16x29-HILITE.png in Resources */ = {isa = PBXBuildFile; fileRef = 291600BD1945721500DBEF1F /* qwerty_320_X_240_loose_16x29-HILITE.png */; };
+		291600DD1945721500DBEF1F /* qwerty_320_X_240_loose_29x29-HILITE.png in Resources */ = {isa = PBXBuildFile; fileRef = 291600BE1945721500DBEF1F /* qwerty_320_X_240_loose_29x29-HILITE.png */; };
+		291600DE1945721500DBEF1F /* qwerty_320_X_240_loose_29x43-HILITE.png in Resources */ = {isa = PBXBuildFile; fileRef = 291600BF1945721500DBEF1F /* qwerty_320_X_240_loose_29x43-HILITE.png */; };
+		291600DF1945721500DBEF1F /* qwerty_320_X_240_loose_61x29-HILITE.png in Resources */ = {isa = PBXBuildFile; fileRef = 291600C01945721500DBEF1F /* qwerty_320_X_240_loose_61x29-HILITE.png */; };
+		291600E01945721500DBEF1F /* qwerty_320_X_240_loose_keys.png in Resources */ = {isa = PBXBuildFile; fileRef = 291600C11945721500DBEF1F /* qwerty_320_X_240_loose_keys.png */; };
+		291600E11945721500DBEF1F /* qwerty_320_X_240_loose_symbols.png in Resources */ = {isa = PBXBuildFile; fileRef = 291600C21945721500DBEF1F /* qwerty_320_X_240_loose_symbols.png */; };
+		291600E41945734F00DBEF1F /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 291600E31945734F00DBEF1F /* libsqlite3.0.dylib */; };
+		292EDD381940C42D00ED0108 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 292EDD371940C42D00ED0108 /* main.m */; };
+		292EDD3B1940C42D00ED0108 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 292EDD3A1940C42D00ED0108 /* AppDelegate.m */; };
+		292EDD3E1940C42D00ED0108 /* ThumbSlide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 292EDD3C1940C42D00ED0108 /* ThumbSlide.xcdatamodeld */; };
+		292EDD401940C42D00ED0108 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 292EDD3F1940C42D00ED0108 /* Images.xcassets */; };
+		292EDD4C1940C42D00ED0108 /* ThumbSlideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 292EDD4B1940C42D00ED0108 /* ThumbSlideTests.m */; };
+		2963C1201952AEA90013B4BC /* CommonWordSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2963C11F1952AEA90013B4BC /* CommonWordSelector.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2963C1211952AEA90013B4BC /* CommonWordSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2963C11F1952AEA90013B4BC /* CommonWordSelector.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2970305A194595D600645016 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 291600731945719200DBEF1F /* KeyboardViewController.m */; };
+		2970305B1945961800645016 /* IMESingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 291600851945721500DBEF1F /* IMESingleton.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2970305C1945962F00645016 /* KeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2916008F1945721500DBEF1F /* KeyboardView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2970305D1945967800645016 /* DBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 291600821945721500DBEF1F /* DBUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2970305E1945967800645016 /* TraceKeyboardHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2916008B1945721500DBEF1F /* TraceKeyboardHandler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2970305F1945967800645016 /* PopupKeyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 291600911945721500DBEF1F /* PopupKeyView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		297030601945967800645016 /* QIInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 291600931945721500DBEF1F /* QIInputView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		297030611945967800645016 /* q_english.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600961945721500DBEF1F /* q_english.c */; };
+		297030621945967800645016 /* q_lexicon.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600981945721500DBEF1F /* q_lexicon.c */; };
+		297030631945967800645016 /* q_main_number.c in Sources */ = {isa = PBXBuildFile; fileRef = 2916009A1945721500DBEF1F /* q_main_number.c */; };
+		297030641945967800645016 /* q_main_punc.c in Sources */ = {isa = PBXBuildFile; fileRef = 2916009C1945721500DBEF1F /* q_main_punc.c */; };
+		297030651945967800645016 /* q_main_qwerty.c in Sources */ = {isa = PBXBuildFile; fileRef = 2916009E1945721500DBEF1F /* q_main_qwerty.c */; };
+		297030661945967800645016 /* q_filter.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600A21945721500DBEF1F /* q_filter.c */; };
+		297030671945967800645016 /* q_hashtable.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600A51945721500DBEF1F /* q_hashtable.c */; };
+		297030681945967800645016 /* q_ime.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600A71945721500DBEF1F /* q_ime.c */; };
+		297030691945967800645016 /* q_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600A91945721500DBEF1F /* q_io.c */; };
+		2970306A1945967800645016 /* q_keyboard.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600AB1945721500DBEF1F /* q_keyboard.c */; };
+		2970306B1945967800645016 /* q_keyboard_factory.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600AD1945721500DBEF1F /* q_keyboard_factory.c */; };
+		2970306C1945967800645016 /* q_logger.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600B01945721500DBEF1F /* q_logger.c */; };
+		2970306D1945967800645016 /* q_malloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600B21945721500DBEF1F /* q_malloc.c */; };
+		2970306E1945967800645016 /* q_recognizerinfo_factory.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600B41945721500DBEF1F /* q_recognizerinfo_factory.c */; };
+		2970306F1945967800645016 /* q_util.m in Sources */ = {isa = PBXBuildFile; fileRef = 291600B71945721500DBEF1F /* q_util.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		297030701945967800645016 /* utf8_string.c in Sources */ = {isa = PBXBuildFile; fileRef = 291600B81945721500DBEF1F /* utf8_string.c */; };
+		297030711945967800645016 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 291600BB1945721500DBEF1F /* Util.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		29703072194596DC00645016 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 291600E31945734F00DBEF1F /* libsqlite3.0.dylib */; };
+		29703073194596FA00645016 /* CandidatesListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 291600881945721500DBEF1F /* CandidatesListView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		29703076194597ED00645016 /* words.db.sql in Resources */ = {isa = PBXBuildFile; fileRef = 29703074194597ED00645016 /* words.db.sql */; };
+		29703077194597ED00645016 /* words.db.sql in Resources */ = {isa = PBXBuildFile; fileRef = 29703074194597ED00645016 /* words.db.sql */; };
+		29703078194597ED00645016 /* build-sqlite3-database.sh in Resources */ = {isa = PBXBuildFile; fileRef = 29703075194597ED00645016 /* build-sqlite3-database.sh */; };
+		29703079194597ED00645016 /* build-sqlite3-database.sh in Resources */ = {isa = PBXBuildFile; fileRef = 29703075194597ED00645016 /* build-sqlite3-database.sh */; };
+		298A7D9C194AD84D006DE2D6 /* button-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 298A7D8F194AD84D006DE2D6 /* button-background.png */; };
+		298A7D9D194AD84D006DE2D6 /* button-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 298A7D8F194AD84D006DE2D6 /* button-background.png */; };
+		298A7D9E194AD84D006DE2D6 /* button-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 298A7D90194AD84D006DE2D6 /* button-background@2x.png */; };
+		298A7D9F194AD84D006DE2D6 /* button-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 298A7D90194AD84D006DE2D6 /* button-background@2x.png */; };
+		298A7DA0194AD84D006DE2D6 /* tutorial_background_00@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 298A7D91194AD84D006DE2D6 /* tutorial_background_00@2x.jpg */; };
+		298A7DA1194AD84D006DE2D6 /* tutorial_background_00@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 298A7D91194AD84D006DE2D6 /* tutorial_background_00@2x.jpg */; };
+		298A7DA2194AD84D006DE2D6 /* tutorial_background_01@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 298A7D92194AD84D006DE2D6 /* tutorial_background_01@2x.jpg */; };
+		298A7DA3194AD84D006DE2D6 /* tutorial_background_01@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 298A7D92194AD84D006DE2D6 /* tutorial_background_01@2x.jpg */; };
+		298A7DA4194AD84D006DE2D6 /* tutorial_background_02@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 298A7D93194AD84D006DE2D6 /* tutorial_background_02@2x.jpg */; };
+		298A7DA5194AD84D006DE2D6 /* tutorial_background_02@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 298A7D93194AD84D006DE2D6 /* tutorial_background_02@2x.jpg */; };
+		298A7DA6194AD84D006DE2D6 /* tutorial_background_03@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 298A7D94194AD84D006DE2D6 /* tutorial_background_03@2x.jpg */; };
+		298A7DA7194AD84D006DE2D6 /* tutorial_background_03@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 298A7D94194AD84D006DE2D6 /* tutorial_background_03@2x.jpg */; };
+		298A7DA8194AD84D006DE2D6 /* tutorial_background_04@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 298A7D95194AD84D006DE2D6 /* tutorial_background_04@2x.jpg */; };
+		298A7DA9194AD84D006DE2D6 /* tutorial_background_04@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 298A7D95194AD84D006DE2D6 /* tutorial_background_04@2x.jpg */; };
+		298A7DAA194AD84D006DE2D6 /* ICETutorialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 298A7D99194AD84D006DE2D6 /* ICETutorialController.m */; };
+		298A7DAB194AD84D006DE2D6 /* ICETutorialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 298A7D99194AD84D006DE2D6 /* ICETutorialController.m */; };
+		298A7DAC194AD84D006DE2D6 /* ICETutorialPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 298A7D9B194AD84D006DE2D6 /* ICETutorialPage.m */; };
+		298A7DAD194AD84D006DE2D6 /* ICETutorialPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 298A7D9B194AD84D006DE2D6 /* ICETutorialPage.m */; };
+		29925296194AC5140018BE8A /* CommonKeyboardBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 29925295194AC5140018BE8A /* CommonKeyboardBridge.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		29925297194AC5140018BE8A /* CommonKeyboardBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 29925295194AC5140018BE8A /* CommonKeyboardBridge.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		29D379F7194EAF6A00A95176 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D379F6194EAF6A00A95176 /* StoreKit.framework */; };
+		29D379FA194EB00C00A95176 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D379F9194EB00C00A95176 /* AudioToolbox.framework */; };
+		29D379FC194EDE2F00A95176 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 29D379FB194EDE2F00A95176 /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		2970307A1945980D00645016 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.db.sql";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(TARGET_BUILD_DIR)/$(CONTENTS_FOLDER_PATH)/$(INPUT_FILE_BASE).db",
+			);
+			script = "./build-sqlite3-database.sh ${INPUT_FILE_BASE} -o ${TARGET_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/${INPUT_FILE_BASE%\\.db}.db";
+		};
+		2970307B19459A5200645016 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.db.sql";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(TARGET_BUILD_DIR)/$(CONTENTS_FOLDER_PATH)/$(INPUT_FILE_BASE).db",
+			);
+			script = "./build-sqlite3-database.sh ${INPUT_FILE_BASE} -o ${TARGET_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/${INPUT_FILE_BASE%\\.db}.db";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXContainerItemProxy section */
+		291600661945717900DBEF1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292EDD2A1940C42D00ED0108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292EDD311940C42D00ED0108;
+			remoteInfo = ThumbSlide;
+		};
+		291600681945717900DBEF1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292EDD2A1940C42D00ED0108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292EDD311940C42D00ED0108;
+			remoteInfo = ThumbSlide;
+		};
+		291600751945719200DBEF1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292EDD2A1940C42D00ED0108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2916006D1945719200DBEF1F;
+			remoteInfo = SlideKeyboard;
+		};
+		291600781945719200DBEF1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292EDD2A1940C42D00ED0108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2916006D1945719200DBEF1F;
+			remoteInfo = SlideKeyboard;
+		};
+		291600E61945865C00DBEF1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292EDD2A1940C42D00ED0108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292EDD311940C42D00ED0108;
+			remoteInfo = ThumbSlide;
+		};
+		292EDD461940C42D00ED0108 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292EDD2A1940C42D00ED0108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292EDD311940C42D00ED0108;
+			remoteInfo = ThumbSlide;
+		};
+		29D379E1194EAE3A00A95176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292EDD2A1940C42D00ED0108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292EDD311940C42D00ED0108;
+			remoteInfo = ThumbSlide;
+		};
+		29D379E3194EAE3A00A95176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292EDD2A1940C42D00ED0108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292EDD311940C42D00ED0108;
+			remoteInfo = ThumbSlide;
+		};
+		29D379E5194EAE8600A95176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292EDD2A1940C42D00ED0108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292EDD311940C42D00ED0108;
+			remoteInfo = ThumbSlide;
+		};
+		29D379E7194EAE9800A95176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292EDD2A1940C42D00ED0108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292EDD311940C42D00ED0108;
+			remoteInfo = ThumbSlide;
+		};
+		29D379E9194EAEBC00A95176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292EDD2A1940C42D00ED0108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2916006D1945719200DBEF1F;
+			remoteInfo = SlideKeyboard;
+		};
+		29D379EB194EAEBF00A95176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292EDD2A1940C42D00ED0108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292EDD311940C42D00ED0108;
+			remoteInfo = ThumbSlide;
+		};
+		29D379ED194EAEE900A95176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292EDD2A1940C42D00ED0108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292EDD311940C42D00ED0108;
+			remoteInfo = ThumbSlide;
+		};
+		29D379EF194EAEEC00A95176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292EDD2A1940C42D00ED0108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292EDD311940C42D00ED0108;
+			remoteInfo = ThumbSlide;
+		};
+		29D379F1194EAEF900A95176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292EDD2A1940C42D00ED0108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292EDD311940C42D00ED0108;
+			remoteInfo = ThumbSlide;
+		};
+		29D379F3194EAF4500A95176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292EDD2A1940C42D00ED0108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292EDD311940C42D00ED0108;
+			remoteInfo = ThumbSlide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		292EDD681940C4AC00ED0108 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				291600771945719200DBEF1F /* com.ezinput.thumbslide.SlideKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2916006E1945719200DBEF1F /* com.ezinput.thumbslide.SlideKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = com.ezinput.thumbslide.SlideKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		291600711945719200DBEF1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		291600721945719200DBEF1F /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		291600731945719200DBEF1F /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		2916007E1945721500DBEF1F /* english.ldb */ = {isa = PBXFileReference; lastKnownFileType = file; path = english.ldb; sourceTree = "<group>"; };
+		291600801945721500DBEF1F /* base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base.h; sourceTree = "<group>"; };
+		291600811945721500DBEF1F /* DBUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBUtil.h; sourceTree = "<group>"; };
+		291600821945721500DBEF1F /* DBUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBUtil.m; sourceTree = "<group>"; };
+		291600831945721500DBEF1F /* hashtable_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashtable_private.h; sourceTree = "<group>"; };
+		291600841945721500DBEF1F /* IMESingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMESingleton.h; sourceTree = "<group>"; };
+		291600851945721500DBEF1F /* IMESingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMESingleton.m; sourceTree = "<group>"; };
+		291600871945721500DBEF1F /* CandidatesListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandidatesListView.h; sourceTree = "<group>"; };
+		291600881945721500DBEF1F /* CandidatesListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandidatesListView.m; sourceTree = "<group>"; };
+		291600891945721500DBEF1F /* KeyboardBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardBridge.h; sourceTree = "<group>"; };
+		2916008A1945721500DBEF1F /* TraceKeyboardHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraceKeyboardHandler.h; sourceTree = "<group>"; };
+		2916008B1945721500DBEF1F /* TraceKeyboardHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraceKeyboardHandler.m; sourceTree = "<group>"; };
+		2916008C1945721500DBEF1F /* KeyboardInteractionListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardInteractionListener.h; sourceTree = "<group>"; };
+		2916008D1945721500DBEF1F /* KeyboardOutputListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardOutputListener.h; sourceTree = "<group>"; };
+		2916008E1945721500DBEF1F /* KeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardView.h; sourceTree = "<group>"; };
+		2916008F1945721500DBEF1F /* KeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardView.m; sourceTree = "<group>"; };
+		291600901945721500DBEF1F /* PopupKeyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupKeyView.h; sourceTree = "<group>"; };
+		291600911945721500DBEF1F /* PopupKeyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupKeyView.m; sourceTree = "<group>"; };
+		291600921945721500DBEF1F /* QIInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QIInputView.h; sourceTree = "<group>"; };
+		291600931945721500DBEF1F /* QIInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QIInputView.m; sourceTree = "<group>"; };
+		291600941945721500DBEF1F /* WordSelectAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordSelectAction.h; sourceTree = "<group>"; };
+		291600961945721500DBEF1F /* q_english.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = q_english.c; sourceTree = "<group>"; };
+		291600971945721500DBEF1F /* q_english.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = q_english.h; sourceTree = "<group>"; };
+		291600981945721500DBEF1F /* q_lexicon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = q_lexicon.c; sourceTree = "<group>"; };
+		291600991945721500DBEF1F /* q_lexicon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = q_lexicon.h; sourceTree = "<group>"; };
+		2916009A1945721500DBEF1F /* q_main_number.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = q_main_number.c; sourceTree = "<group>"; };
+		2916009B1945721500DBEF1F /* q_main_number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = q_main_number.h; sourceTree = "<group>"; };
+		2916009C1945721500DBEF1F /* q_main_punc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = q_main_punc.c; sourceTree = "<group>"; };
+		2916009D1945721500DBEF1F /* q_main_punc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = q_main_punc.h; sourceTree = "<group>"; };
+		2916009E1945721500DBEF1F /* q_main_qwerty.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = q_main_qwerty.c; sourceTree = "<group>"; };
+		2916009F1945721500DBEF1F /* q_main_qwerty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = q_main_qwerty.h; sourceTree = "<group>"; };
+		291600A01945721500DBEF1F /* q_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = q_data.h; sourceTree = "<group>"; };
+		291600A11945721500DBEF1F /* q_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = q_error.h; sourceTree = "<group>"; };
+		291600A21945721500DBEF1F /* q_filter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = q_filter.c; sourceTree = "<group>"; };
+		291600A31945721500DBEF1F /* q_filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = q_filter.h; sourceTree = "<group>"; };
+		291600A41945721500DBEF1F /* q_filter_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = q_filter_private.h; sourceTree = "<group>"; };
+		291600A51945721500DBEF1F /* q_hashtable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = q_hashtable.c; sourceTree = "<group>"; };
+		291600A61945721500DBEF1F /* q_hashtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = q_hashtable.h; sourceTree = "<group>"; };
+		291600A71945721500DBEF1F /* q_ime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = q_ime.c; sourceTree = "<group>"; };
+		291600A81945721500DBEF1F /* q_ime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = q_ime.h; sourceTree = "<group>"; };
+		291600A91945721500DBEF1F /* q_io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = q_io.c; sourceTree = "<group>"; };
+		291600AA1945721500DBEF1F /* q_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = q_io.h; sourceTree = "<group>"; };
+		291600AB1945721500DBEF1F /* q_keyboard.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = q_keyboard.c; sourceTree = "<group>"; };
+		291600AC1945721500DBEF1F /* q_keyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = q_keyboard.h; sourceTree = "<group>"; };
+		291600AD1945721500DBEF1F /* q_keyboard_factory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = q_keyboard_factory.c; sourceTree = "<group>"; };
+		291600AE1945721500DBEF1F /* q_keyboard_factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = q_keyboard_factory.h; sourceTree = "<group>"; };
+		291600AF1945721500DBEF1F /* q_keyboard_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = q_keyboard_private.h; sourceTree = "<group>"; };
+		291600B01945721500DBEF1F /* q_logger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = q_logger.c; sourceTree = "<group>"; };
+		291600B11945721500DBEF1F /* q_logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = q_logger.h; sourceTree = "<group>"; };
+		291600B21945721500DBEF1F /* q_malloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = q_malloc.c; sourceTree = "<group>"; };
+		291600B31945721500DBEF1F /* q_malloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = q_malloc.h; sourceTree = "<group>"; };
+		291600B41945721500DBEF1F /* q_recognizerinfo_factory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = q_recognizerinfo_factory.c; sourceTree = "<group>"; };
+		291600B51945721500DBEF1F /* q_recognizerinfo_factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = q_recognizerinfo_factory.h; sourceTree = "<group>"; };
+		291600B61945721500DBEF1F /* q_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = q_util.h; sourceTree = "<group>"; };
+		291600B71945721500DBEF1F /* q_util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = q_util.m; sourceTree = "<group>"; };
+		291600B81945721500DBEF1F /* utf8_string.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utf8_string.c; sourceTree = "<group>"; };
+		291600B91945721500DBEF1F /* utf8_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf8_string.h; sourceTree = "<group>"; };
+		291600BA1945721500DBEF1F /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		291600BB1945721500DBEF1F /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		291600BD1945721500DBEF1F /* qwerty_320_X_240_loose_16x29-HILITE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qwerty_320_X_240_loose_16x29-HILITE.png"; sourceTree = "<group>"; };
+		291600BE1945721500DBEF1F /* qwerty_320_X_240_loose_29x29-HILITE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qwerty_320_X_240_loose_29x29-HILITE.png"; sourceTree = "<group>"; };
+		291600BF1945721500DBEF1F /* qwerty_320_X_240_loose_29x43-HILITE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qwerty_320_X_240_loose_29x43-HILITE.png"; sourceTree = "<group>"; };
+		291600C01945721500DBEF1F /* qwerty_320_X_240_loose_61x29-HILITE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qwerty_320_X_240_loose_61x29-HILITE.png"; sourceTree = "<group>"; };
+		291600C11945721500DBEF1F /* qwerty_320_X_240_loose_keys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qwerty_320_X_240_loose_keys.png; sourceTree = "<group>"; };
+		291600C21945721500DBEF1F /* qwerty_320_X_240_loose_symbols.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qwerty_320_X_240_loose_symbols.png; sourceTree = "<group>"; };
+		291600E31945734F00DBEF1F /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		292EDD321940C42D00ED0108 /* ThumbSlide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThumbSlide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		292EDD361940C42D00ED0108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292EDD371940C42D00ED0108 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		292EDD391940C42D00ED0108 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		292EDD3A1940C42D00ED0108 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		292EDD3D1940C42D00ED0108 /* ThumbSlide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThumbSlide.xcdatamodel; sourceTree = "<group>"; };
+		292EDD3F1940C42D00ED0108 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		292EDD451940C42D00ED0108 /* ThumbSlideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThumbSlideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		292EDD4A1940C42D00ED0108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292EDD4B1940C42D00ED0108 /* ThumbSlideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThumbSlideTests.m; sourceTree = "<group>"; };
+		2963C11E1952AEA90013B4BC /* CommonWordSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonWordSelector.h; sourceTree = "<group>"; };
+		2963C11F1952AEA90013B4BC /* CommonWordSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonWordSelector.m; sourceTree = "<group>"; };
+		29703074194597ED00645016 /* words.db.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.db.sql; sourceTree = "<group>"; };
+		29703075194597ED00645016 /* build-sqlite3-database.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "build-sqlite3-database.sh"; sourceTree = "<group>"; };
+		298A7D8F194AD84D006DE2D6 /* button-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-background.png"; sourceTree = "<group>"; };
+		298A7D90194AD84D006DE2D6 /* button-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-background@2x.png"; sourceTree = "<group>"; };
+		298A7D91194AD84D006DE2D6 /* tutorial_background_00@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tutorial_background_00@2x.jpg"; sourceTree = "<group>"; };
+		298A7D92194AD84D006DE2D6 /* tutorial_background_01@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tutorial_background_01@2x.jpg"; sourceTree = "<group>"; };
+		298A7D93194AD84D006DE2D6 /* tutorial_background_02@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tutorial_background_02@2x.jpg"; sourceTree = "<group>"; };
+		298A7D94194AD84D006DE2D6 /* tutorial_background_03@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tutorial_background_03@2x.jpg"; sourceTree = "<group>"; };
+		298A7D95194AD84D006DE2D6 /* tutorial_background_04@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tutorial_background_04@2x.jpg"; sourceTree = "<group>"; };
+		298A7D98194AD84D006DE2D6 /* ICETutorialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICETutorialController.h; sourceTree = "<group>"; };
+		298A7D99194AD84D006DE2D6 /* ICETutorialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICETutorialController.m; sourceTree = "<group>"; };
+		298A7D9A194AD84D006DE2D6 /* ICETutorialPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICETutorialPage.h; sourceTree = "<group>"; };
+		298A7D9B194AD84D006DE2D6 /* ICETutorialPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICETutorialPage.m; sourceTree = "<group>"; };
+		29925294194AC5140018BE8A /* CommonKeyboardBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonKeyboardBridge.h; sourceTree = "<group>"; };
+		29925295194AC5140018BE8A /* CommonKeyboardBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonKeyboardBridge.m; sourceTree = "<group>"; };
+		2992529C194ADB660018BE8A /* SlideKeyboard.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideKeyboard.pch; sourceTree = "<group>"; };
+		29D379F5194EAF5F00A95176 /* ThumbSlide.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ThumbSlide.entitlements; sourceTree = "<group>"; };
+		29D379F6194EAF6A00A95176 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		29D379F8194EAFA700A95176 /* com.ezinput.thumbslide.SlideKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = com.ezinput.thumbslide.SlideKeyboard.entitlements; sourceTree = "<group>"; };
+		29D379F9194EB00C00A95176 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		29D379FB194EDE2F00A95176 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		29D379FE194EE6B700A95176 /* KeyboardHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardHandler.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2916006B1945719200DBEF1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291600E41945734F00DBEF1F /* libsqlite3.0.dylib in Frameworks */,
+				29D379FA194EB00C00A95176 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292EDD2F1940C42D00ED0108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29703072194596DC00645016 /* libsqlite3.0.dylib in Frameworks */,
+				29D379F7194EAF6A00A95176 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292EDD421940C42D00ED0108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2916006F1945719200DBEF1F /* SlideKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				29D379F8194EAFA700A95176 /* com.ezinput.thumbslide.SlideKeyboard.entitlements */,
+				2916007D1945721500DBEF1F /* lexicon */,
+				2916007F1945721500DBEF1F /* base */,
+				291600BC1945721500DBEF1F /* image */,
+				291600721945719200DBEF1F /* KeyboardViewController.h */,
+				291600731945719200DBEF1F /* KeyboardViewController.m */,
+				291600701945719200DBEF1F /* Supporting Files */,
+			);
+			path = SlideKeyboard;
+			sourceTree = "<group>";
+		};
+		291600701945719200DBEF1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				291600711945719200DBEF1F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2916007D1945721500DBEF1F /* lexicon */ = {
+			isa = PBXGroup;
+			children = (
+				2916007E1945721500DBEF1F /* english.ldb */,
+			);
+			path = lexicon;
+			sourceTree = "<group>";
+		};
+		2916007F1945721500DBEF1F /* base */ = {
+			isa = PBXGroup;
+			children = (
+				291600801945721500DBEF1F /* base.h */,
+				291600811945721500DBEF1F /* DBUtil.h */,
+				291600821945721500DBEF1F /* DBUtil.m */,
+				291600831945721500DBEF1F /* hashtable_private.h */,
+				291600841945721500DBEF1F /* IMESingleton.h */,
+				291600851945721500DBEF1F /* IMESingleton.m */,
+				291600861945721500DBEF1F /* Keyboard */,
+				291600951945721500DBEF1F /* Keyboard_Data */,
+				291600A01945721500DBEF1F /* q_data.h */,
+				291600A11945721500DBEF1F /* q_error.h */,
+				291600A21945721500DBEF1F /* q_filter.c */,
+				291600A31945721500DBEF1F /* q_filter.h */,
+				291600A41945721500DBEF1F /* q_filter_private.h */,
+				291600A51945721500DBEF1F /* q_hashtable.c */,
+				291600A61945721500DBEF1F /* q_hashtable.h */,
+				291600A71945721500DBEF1F /* q_ime.c */,
+				291600A81945721500DBEF1F /* q_ime.h */,
+				291600A91945721500DBEF1F /* q_io.c */,
+				291600AA1945721500DBEF1F /* q_io.h */,
+				291600AB1945721500DBEF1F /* q_keyboard.c */,
+				291600AC1945721500DBEF1F /* q_keyboard.h */,
+				291600AD1945721500DBEF1F /* q_keyboard_factory.c */,
+				291600AE1945721500DBEF1F /* q_keyboard_factory.h */,
+				291600AF1945721500DBEF1F /* q_keyboard_private.h */,
+				291600B01945721500DBEF1F /* q_logger.c */,
+				291600B11945721500DBEF1F /* q_logger.h */,
+				291600B21945721500DBEF1F /* q_malloc.c */,
+				291600B31945721500DBEF1F /* q_malloc.h */,
+				291600B41945721500DBEF1F /* q_recognizerinfo_factory.c */,
+				291600B51945721500DBEF1F /* q_recognizerinfo_factory.h */,
+				291600B61945721500DBEF1F /* q_util.h */,
+				291600B71945721500DBEF1F /* q_util.m */,
+				291600B81945721500DBEF1F /* utf8_string.c */,
+				291600B91945721500DBEF1F /* utf8_string.h */,
+				291600BA1945721500DBEF1F /* Util.h */,
+				291600BB1945721500DBEF1F /* Util.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		291600861945721500DBEF1F /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				291600871945721500DBEF1F /* CandidatesListView.h */,
+				291600881945721500DBEF1F /* CandidatesListView.m */,
+				291600891945721500DBEF1F /* KeyboardBridge.h */,
+				2916008A1945721500DBEF1F /* TraceKeyboardHandler.h */,
+				2916008B1945721500DBEF1F /* TraceKeyboardHandler.m */,
+				2916008C1945721500DBEF1F /* KeyboardInteractionListener.h */,
+				2916008D1945721500DBEF1F /* KeyboardOutputListener.h */,
+				2916008E1945721500DBEF1F /* KeyboardView.h */,
+				2916008F1945721500DBEF1F /* KeyboardView.m */,
+				291600901945721500DBEF1F /* PopupKeyView.h */,
+				291600911945721500DBEF1F /* PopupKeyView.m */,
+				291600921945721500DBEF1F /* QIInputView.h */,
+				291600931945721500DBEF1F /* QIInputView.m */,
+				291600941945721500DBEF1F /* WordSelectAction.h */,
+				29925294194AC5140018BE8A /* CommonKeyboardBridge.h */,
+				29925295194AC5140018BE8A /* CommonKeyboardBridge.m */,
+				29D379FE194EE6B700A95176 /* KeyboardHandler.h */,
+				2963C11E1952AEA90013B4BC /* CommonWordSelector.h */,
+				2963C11F1952AEA90013B4BC /* CommonWordSelector.m */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		291600951945721500DBEF1F /* Keyboard_Data */ = {
+			isa = PBXGroup;
+			children = (
+				291600961945721500DBEF1F /* q_english.c */,
+				291600971945721500DBEF1F /* q_english.h */,
+				291600981945721500DBEF1F /* q_lexicon.c */,
+				291600991945721500DBEF1F /* q_lexicon.h */,
+				2916009A1945721500DBEF1F /* q_main_number.c */,
+				2916009B1945721500DBEF1F /* q_main_number.h */,
+				2916009C1945721500DBEF1F /* q_main_punc.c */,
+				2916009D1945721500DBEF1F /* q_main_punc.h */,
+				2916009E1945721500DBEF1F /* q_main_qwerty.c */,
+				2916009F1945721500DBEF1F /* q_main_qwerty.h */,
+			);
+			path = Keyboard_Data;
+			sourceTree = "<group>";
+		};
+		291600BC1945721500DBEF1F /* image */ = {
+			isa = PBXGroup;
+			children = (
+				291600BD1945721500DBEF1F /* qwerty_320_X_240_loose_16x29-HILITE.png */,
+				291600BE1945721500DBEF1F /* qwerty_320_X_240_loose_29x29-HILITE.png */,
+				291600BF1945721500DBEF1F /* qwerty_320_X_240_loose_29x43-HILITE.png */,
+				291600C01945721500DBEF1F /* qwerty_320_X_240_loose_61x29-HILITE.png */,
+				291600C11945721500DBEF1F /* qwerty_320_X_240_loose_keys.png */,
+				291600C21945721500DBEF1F /* qwerty_320_X_240_loose_symbols.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		292EDD291940C42D00ED0108 = {
+			isa = PBXGroup;
+			children = (
+				29D379FB194EDE2F00A95176 /* Settings.bundle */,
+				29D379F9194EB00C00A95176 /* AudioToolbox.framework */,
+				29D379F6194EAF6A00A95176 /* StoreKit.framework */,
+				2992529C194ADB660018BE8A /* SlideKeyboard.pch */,
+				29703074194597ED00645016 /* words.db.sql */,
+				29703075194597ED00645016 /* build-sqlite3-database.sh */,
+				291600E31945734F00DBEF1F /* libsqlite3.0.dylib */,
+				292EDD341940C42D00ED0108 /* ThumbSlide */,
+				292EDD481940C42D00ED0108 /* ThumbSlideTests */,
+				2916006F1945719200DBEF1F /* SlideKeyboard */,
+				292EDD331940C42D00ED0108 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		292EDD331940C42D00ED0108 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				292EDD321940C42D00ED0108 /* ThumbSlide.app */,
+				292EDD451940C42D00ED0108 /* ThumbSlideTests.xctest */,
+				2916006E1945719200DBEF1F /* com.ezinput.thumbslide.SlideKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		292EDD341940C42D00ED0108 /* ThumbSlide */ = {
+			isa = PBXGroup;
+			children = (
+				29D379F5194EAF5F00A95176 /* ThumbSlide.entitlements */,
+				298A7D8E194AD84D006DE2D6 /* images */,
+				298A7D96194AD84D006DE2D6 /* vender */,
+				292EDD391940C42D00ED0108 /* AppDelegate.h */,
+				292EDD3A1940C42D00ED0108 /* AppDelegate.m */,
+				292EDD3F1940C42D00ED0108 /* Images.xcassets */,
+				292EDD3C1940C42D00ED0108 /* ThumbSlide.xcdatamodeld */,
+				292EDD351940C42D00ED0108 /* Supporting Files */,
+			);
+			path = ThumbSlide;
+			sourceTree = "<group>";
+		};
+		292EDD351940C42D00ED0108 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				292EDD361940C42D00ED0108 /* Info.plist */,
+				292EDD371940C42D00ED0108 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		292EDD481940C42D00ED0108 /* ThumbSlideTests */ = {
+			isa = PBXGroup;
+			children = (
+				292EDD4B1940C42D00ED0108 /* ThumbSlideTests.m */,
+				292EDD491940C42D00ED0108 /* Supporting Files */,
+			);
+			path = ThumbSlideTests;
+			sourceTree = "<group>";
+		};
+		292EDD491940C42D00ED0108 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				292EDD4A1940C42D00ED0108 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		298A7D8E194AD84D006DE2D6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				298A7D8F194AD84D006DE2D6 /* button-background.png */,
+				298A7D90194AD84D006DE2D6 /* button-background@2x.png */,
+				298A7D91194AD84D006DE2D6 /* tutorial_background_00@2x.jpg */,
+				298A7D92194AD84D006DE2D6 /* tutorial_background_01@2x.jpg */,
+				298A7D93194AD84D006DE2D6 /* tutorial_background_02@2x.jpg */,
+				298A7D94194AD84D006DE2D6 /* tutorial_background_03@2x.jpg */,
+				298A7D95194AD84D006DE2D6 /* tutorial_background_04@2x.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		298A7D96194AD84D006DE2D6 /* vender */ = {
+			isa = PBXGroup;
+			children = (
+				298A7D97194AD84D006DE2D6 /* tutorial */,
+			);
+			path = vender;
+			sourceTree = "<group>";
+		};
+		298A7D97194AD84D006DE2D6 /* tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				298A7D98194AD84D006DE2D6 /* ICETutorialController.h */,
+				298A7D99194AD84D006DE2D6 /* ICETutorialController.m */,
+				298A7D9A194AD84D006DE2D6 /* ICETutorialPage.h */,
+				298A7D9B194AD84D006DE2D6 /* ICETutorialPage.m */,
+			);
+			path = tutorial;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2916006D1945719200DBEF1F /* SlideKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2916007A1945719200DBEF1F /* Build configuration list for PBXNativeTarget "SlideKeyboard" */;
+			buildPhases = (
+				2916006A1945719200DBEF1F /* Sources */,
+				2916006B1945719200DBEF1F /* Frameworks */,
+				2916006C1945719200DBEF1F /* Resources */,
+			);
+			buildRules = (
+				2970307B19459A5200645016 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = SlideKeyboard;
+			productName = SlideKeyboard;
+			productReference = 2916006E1945719200DBEF1F /* com.ezinput.thumbslide.SlideKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		292EDD311940C42D00ED0108 /* ThumbSlide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292EDD4F1940C42D00ED0108 /* Build configuration list for PBXNativeTarget "ThumbSlide" */;
+			buildPhases = (
+				292EDD2E1940C42D00ED0108 /* Sources */,
+				292EDD2F1940C42D00ED0108 /* Frameworks */,
+				292EDD301940C42D00ED0108 /* Resources */,
+				292EDD681940C4AC00ED0108 /* Embed App Extensions */,
+			);
+			buildRules = (
+				2970307A1945980D00645016 /* PBXBuildRule */,
+			);
+			dependencies = (
+				291600761945719200DBEF1F /* PBXTargetDependency */,
+				291600791945719200DBEF1F /* PBXTargetDependency */,
+			);
+			name = ThumbSlide;
+			productName = ThumbSlide;
+			productReference = 292EDD321940C42D00ED0108 /* ThumbSlide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		292EDD441940C42D00ED0108 /* ThumbSlideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292EDD521940C42D00ED0108 /* Build configuration list for PBXNativeTarget "ThumbSlideTests" */;
+			buildPhases = (
+				292EDD411940C42D00ED0108 /* Sources */,
+				292EDD421940C42D00ED0108 /* Frameworks */,
+				292EDD431940C42D00ED0108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				292EDD471940C42D00ED0108 /* PBXTargetDependency */,
+				291600671945717900DBEF1F /* PBXTargetDependency */,
+				291600691945717900DBEF1F /* PBXTargetDependency */,
+				291600E71945865C00DBEF1F /* PBXTargetDependency */,
+				29D379E2194EAE3A00A95176 /* PBXTargetDependency */,
+				29D379E4194EAE3A00A95176 /* PBXTargetDependency */,
+				29D379E6194EAE8600A95176 /* PBXTargetDependency */,
+				29D379E8194EAE9800A95176 /* PBXTargetDependency */,
+				29D379EA194EAEBC00A95176 /* PBXTargetDependency */,
+				29D379EC194EAEBF00A95176 /* PBXTargetDependency */,
+				29D379EE194EAEE900A95176 /* PBXTargetDependency */,
+				29D379F0194EAEEC00A95176 /* PBXTargetDependency */,
+				29D379F2194EAEF900A95176 /* PBXTargetDependency */,
+				29D379F4194EAF4500A95176 /* PBXTargetDependency */,
+			);
+			name = ThumbSlideTests;
+			productName = ThumbSlideTests;
+			productReference = 292EDD451940C42D00ED0108 /* ThumbSlideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		292EDD2A1940C42D00ED0108 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = QuickNote;
+				TargetAttributes = {
+					2916006D1945719200DBEF1F = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = VW379TB6DM;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					292EDD311940C42D00ED0108 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = VW379TB6DM;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					292EDD441940C42D00ED0108 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 292EDD311940C42D00ED0108;
+					};
+				};
+			};
+			buildConfigurationList = 292EDD2D1940C42D00ED0108 /* Build configuration list for PBXProject "ThumbSlide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 292EDD291940C42D00ED0108;
+			productRefGroup = 292EDD331940C42D00ED0108 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				292EDD311940C42D00ED0108 /* ThumbSlide */,
+				292EDD441940C42D00ED0108 /* ThumbSlideTests */,
+				2916006D1945719200DBEF1F /* SlideKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2916006C1945719200DBEF1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291600E01945721500DBEF1F /* qwerty_320_X_240_loose_keys.png in Resources */,
+				291600E11945721500DBEF1F /* qwerty_320_X_240_loose_symbols.png in Resources */,
+				298A7DA5194AD84D006DE2D6 /* tutorial_background_02@2x.jpg in Resources */,
+				298A7DA9194AD84D006DE2D6 /* tutorial_background_04@2x.jpg in Resources */,
+				291600DF1945721500DBEF1F /* qwerty_320_X_240_loose_61x29-HILITE.png in Resources */,
+				29703079194597ED00645016 /* build-sqlite3-database.sh in Resources */,
+				298A7DA3194AD84D006DE2D6 /* tutorial_background_01@2x.jpg in Resources */,
+				291600DE1945721500DBEF1F /* qwerty_320_X_240_loose_29x43-HILITE.png in Resources */,
+				298A7D9F194AD84D006DE2D6 /* button-background@2x.png in Resources */,
+				298A7DA1194AD84D006DE2D6 /* tutorial_background_00@2x.jpg in Resources */,
+				291600DC1945721500DBEF1F /* qwerty_320_X_240_loose_16x29-HILITE.png in Resources */,
+				298A7DA7194AD84D006DE2D6 /* tutorial_background_03@2x.jpg in Resources */,
+				291600C31945721500DBEF1F /* english.ldb in Resources */,
+				291600DD1945721500DBEF1F /* qwerty_320_X_240_loose_29x29-HILITE.png in Resources */,
+				29703077194597ED00645016 /* words.db.sql in Resources */,
+				298A7D9D194AD84D006DE2D6 /* button-background.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292EDD301940C42D00ED0108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298A7D9E194AD84D006DE2D6 /* button-background@2x.png in Resources */,
+				298A7DA2194AD84D006DE2D6 /* tutorial_background_01@2x.jpg in Resources */,
+				298A7DA0194AD84D006DE2D6 /* tutorial_background_00@2x.jpg in Resources */,
+				29703078194597ED00645016 /* build-sqlite3-database.sh in Resources */,
+				292EDD401940C42D00ED0108 /* Images.xcassets in Resources */,
+				298A7DA4194AD84D006DE2D6 /* tutorial_background_02@2x.jpg in Resources */,
+				29703076194597ED00645016 /* words.db.sql in Resources */,
+				298A7D9C194AD84D006DE2D6 /* button-background.png in Resources */,
+				298A7DA8194AD84D006DE2D6 /* tutorial_background_04@2x.jpg in Resources */,
+				29D379FC194EDE2F00A95176 /* Settings.bundle in Resources */,
+				298A7DA6194AD84D006DE2D6 /* tutorial_background_03@2x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292EDD431940C42D00ED0108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2916006A1945719200DBEF1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291600C71945721500DBEF1F /* TraceKeyboardHandler.m in Sources */,
+				291600741945719200DBEF1F /* KeyboardViewController.m in Sources */,
+				291600D81945721500DBEF1F /* q_recognizerinfo_factory.c in Sources */,
+				291600D41945721500DBEF1F /* q_keyboard.c in Sources */,
+				291600D61945721500DBEF1F /* q_logger.c in Sources */,
+				291600C51945721500DBEF1F /* IMESingleton.m in Sources */,
+				291600D21945721500DBEF1F /* q_ime.c in Sources */,
+				291600CD1945721500DBEF1F /* q_main_number.c in Sources */,
+				291600C91945721500DBEF1F /* PopupKeyView.m in Sources */,
+				291600D01945721500DBEF1F /* q_filter.c in Sources */,
+				298A7DAD194AD84D006DE2D6 /* ICETutorialPage.m in Sources */,
+				291600DB1945721500DBEF1F /* Util.m in Sources */,
+				291600D71945721500DBEF1F /* q_malloc.c in Sources */,
+				291600DA1945721500DBEF1F /* utf8_string.c in Sources */,
+				291600D91945721500DBEF1F /* q_util.m in Sources */,
+				291600CF1945721500DBEF1F /* q_main_qwerty.c in Sources */,
+				291600CC1945721500DBEF1F /* q_lexicon.c in Sources */,
+				291600C81945721500DBEF1F /* KeyboardView.m in Sources */,
+				291600D51945721500DBEF1F /* q_keyboard_factory.c in Sources */,
+				29925297194AC5140018BE8A /* CommonKeyboardBridge.m in Sources */,
+				291600CA1945721500DBEF1F /* QIInputView.m in Sources */,
+				291600D11945721500DBEF1F /* q_hashtable.c in Sources */,
+				298A7DAB194AD84D006DE2D6 /* ICETutorialController.m in Sources */,
+				291600CE1945721500DBEF1F /* q_main_punc.c in Sources */,
+				291600CB1945721500DBEF1F /* q_english.c in Sources */,
+				291600D31945721500DBEF1F /* q_io.c in Sources */,
+				291600C61945721500DBEF1F /* CandidatesListView.m in Sources */,
+				2963C1211952AEA90013B4BC /* CommonWordSelector.m in Sources */,
+				291600C41945721500DBEF1F /* DBUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292EDD2E1940C42D00ED0108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29703073194596FA00645016 /* CandidatesListView.m in Sources */,
+				2970305D1945967800645016 /* DBUtil.m in Sources */,
+				2970305E1945967800645016 /* TraceKeyboardHandler.m in Sources */,
+				298A7DAA194AD84D006DE2D6 /* ICETutorialController.m in Sources */,
+				29925296194AC5140018BE8A /* CommonKeyboardBridge.m in Sources */,
+				2970305F1945967800645016 /* PopupKeyView.m in Sources */,
+				297030601945967800645016 /* QIInputView.m in Sources */,
+				297030611945967800645016 /* q_english.c in Sources */,
+				297030621945967800645016 /* q_lexicon.c in Sources */,
+				297030631945967800645016 /* q_main_number.c in Sources */,
+				298A7DAC194AD84D006DE2D6 /* ICETutorialPage.m in Sources */,
+				297030641945967800645016 /* q_main_punc.c in Sources */,
+				297030651945967800645016 /* q_main_qwerty.c in Sources */,
+				297030661945967800645016 /* q_filter.c in Sources */,
+				297030671945967800645016 /* q_hashtable.c in Sources */,
+				297030681945967800645016 /* q_ime.c in Sources */,
+				297030691945967800645016 /* q_io.c in Sources */,
+				2970306A1945967800645016 /* q_keyboard.c in Sources */,
+				2970306B1945967800645016 /* q_keyboard_factory.c in Sources */,
+				2970306C1945967800645016 /* q_logger.c in Sources */,
+				2970306D1945967800645016 /* q_malloc.c in Sources */,
+				2963C1201952AEA90013B4BC /* CommonWordSelector.m in Sources */,
+				2970306E1945967800645016 /* q_recognizerinfo_factory.c in Sources */,
+				2970306F1945967800645016 /* q_util.m in Sources */,
+				297030701945967800645016 /* utf8_string.c in Sources */,
+				297030711945967800645016 /* Util.m in Sources */,
+				2970305C1945962F00645016 /* KeyboardView.m in Sources */,
+				2970305B1945961800645016 /* IMESingleton.m in Sources */,
+				2970305A194595D600645016 /* KeyboardViewController.m in Sources */,
+				292EDD3B1940C42D00ED0108 /* AppDelegate.m in Sources */,
+				292EDD381940C42D00ED0108 /* main.m in Sources */,
+				292EDD3E1940C42D00ED0108 /* ThumbSlide.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292EDD411940C42D00ED0108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292EDD4C1940C42D00ED0108 /* ThumbSlideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		291600671945717900DBEF1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292EDD311940C42D00ED0108 /* ThumbSlide */;
+			targetProxy = 291600661945717900DBEF1F /* PBXContainerItemProxy */;
+		};
+		291600691945717900DBEF1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292EDD311940C42D00ED0108 /* ThumbSlide */;
+			targetProxy = 291600681945717900DBEF1F /* PBXContainerItemProxy */;
+		};
+		291600761945719200DBEF1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2916006D1945719200DBEF1F /* SlideKeyboard */;
+			targetProxy = 291600751945719200DBEF1F /* PBXContainerItemProxy */;
+		};
+		291600791945719200DBEF1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2916006D1945719200DBEF1F /* SlideKeyboard */;
+			targetProxy = 291600781945719200DBEF1F /* PBXContainerItemProxy */;
+		};
+		291600E71945865C00DBEF1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292EDD311940C42D00ED0108 /* ThumbSlide */;
+			targetProxy = 291600E61945865C00DBEF1F /* PBXContainerItemProxy */;
+		};
+		292EDD471940C42D00ED0108 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292EDD311940C42D00ED0108 /* ThumbSlide */;
+			targetProxy = 292EDD461940C42D00ED0108 /* PBXContainerItemProxy */;
+		};
+		29D379E2194EAE3A00A95176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292EDD311940C42D00ED0108 /* ThumbSlide */;
+			targetProxy = 29D379E1194EAE3A00A95176 /* PBXContainerItemProxy */;
+		};
+		29D379E4194EAE3A00A95176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292EDD311940C42D00ED0108 /* ThumbSlide */;
+			targetProxy = 29D379E3194EAE3A00A95176 /* PBXContainerItemProxy */;
+		};
+		29D379E6194EAE8600A95176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292EDD311940C42D00ED0108 /* ThumbSlide */;
+			targetProxy = 29D379E5194EAE8600A95176 /* PBXContainerItemProxy */;
+		};
+		29D379E8194EAE9800A95176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292EDD311940C42D00ED0108 /* ThumbSlide */;
+			targetProxy = 29D379E7194EAE9800A95176 /* PBXContainerItemProxy */;
+		};
+		29D379EA194EAEBC00A95176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2916006D1945719200DBEF1F /* SlideKeyboard */;
+			targetProxy = 29D379E9194EAEBC00A95176 /* PBXContainerItemProxy */;
+		};
+		29D379EC194EAEBF00A95176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292EDD311940C42D00ED0108 /* ThumbSlide */;
+			targetProxy = 29D379EB194EAEBF00A95176 /* PBXContainerItemProxy */;
+		};
+		29D379EE194EAEE900A95176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292EDD311940C42D00ED0108 /* ThumbSlide */;
+			targetProxy = 29D379ED194EAEE900A95176 /* PBXContainerItemProxy */;
+		};
+		29D379F0194EAEEC00A95176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292EDD311940C42D00ED0108 /* ThumbSlide */;
+			targetProxy = 29D379EF194EAEEC00A95176 /* PBXContainerItemProxy */;
+		};
+		29D379F2194EAEF900A95176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292EDD311940C42D00ED0108 /* ThumbSlide */;
+			targetProxy = 29D379F1194EAEF900A95176 /* PBXContainerItemProxy */;
+		};
+		29D379F4194EAF4500A95176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292EDD311940C42D00ED0108 /* ThumbSlide */;
+			targetProxy = 29D379F3194EAF4500A95176 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2916007B1945719200DBEF1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SlideKeyboard/com.ezinput.thumbslide.SlideKeyboard.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SlideKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "com.ezinput.thumbslide.$(TARGET_NAME:rfc1034identifier)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2916007C1945719200DBEF1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SlideKeyboard/com.ezinput.thumbslide.SlideKeyboard.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SlideKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "com.ezinput.thumbslide.$(TARGET_NAME:rfc1034identifier)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		292EDD4D1940C42D00ED0108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: quick note (KGK2Y33SDC)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = SlideKeyboard.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		292EDD4E1940C42D00ED0108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: quick note (KGK2Y33SDC)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = SlideKeyboard.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		292EDD501940C42D00ED0108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = ThumbSlide/ThumbSlide.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = SlideKeyboard.pch;
+				INFOPLIST_FILE = ThumbSlide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		292EDD511940C42D00ED0108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = ThumbSlide/ThumbSlide.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = SlideKeyboard.pch;
+				INFOPLIST_FILE = ThumbSlide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		292EDD531940C42D00ED0108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThumbSlide.app/ThumbSlide";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ThumbSlideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		292EDD541940C42D00ED0108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThumbSlide.app/ThumbSlide";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ThumbSlideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2916007A1945719200DBEF1F /* Build configuration list for PBXNativeTarget "SlideKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2916007B1945719200DBEF1F /* Debug */,
+				2916007C1945719200DBEF1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292EDD2D1940C42D00ED0108 /* Build configuration list for PBXProject "ThumbSlide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292EDD4D1940C42D00ED0108 /* Debug */,
+				292EDD4E1940C42D00ED0108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292EDD4F1940C42D00ED0108 /* Build configuration list for PBXNativeTarget "ThumbSlide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292EDD501940C42D00ED0108 /* Debug */,
+				292EDD511940C42D00ED0108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292EDD521940C42D00ED0108 /* Build configuration list for PBXNativeTarget "ThumbSlideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292EDD531940C42D00ED0108 /* Debug */,
+				292EDD541940C42D00ED0108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		292EDD3C1940C42D00ED0108 /* ThumbSlide.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				292EDD3D1940C42D00ED0108 /* ThumbSlide.xcdatamodel */,
+			);
+			currentVersion = 292EDD3D1940C42D00ED0108 /* ThumbSlide.xcdatamodel */;
+			path = ThumbSlide.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 292EDD2A1940C42D00ED0108 /* Project object */;
+}

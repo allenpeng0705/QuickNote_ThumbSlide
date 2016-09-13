@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SlideKeyboard.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>ThumbSlide.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2916006D1945719200DBEF1F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>292EDD311940C42D00ED0108</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>292EDD441940C42D00ED0108</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>292EDD581940C4AC00ED0108</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>292EDD6C1940C53A00ED0108</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
